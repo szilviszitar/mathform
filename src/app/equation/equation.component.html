@@ -1,0 +1,17 @@
+<div class="container">
+    <h1>MATH GAME</h1>
+    <p>Solve the addition as quickly as possible!  </p>
+
+    <form [formGroup]="mathForm">
+
+        <div class="equation">
+            {{a}} + {{mathForm.value.b}} =
+        </div>
+        <input appAnswerHighLight formControlName="answer" />
+    </form>
+
+
+    <div class="stats">
+       Your solving speed currently:  {{secondPerSolution| number:'1.1-3'}}
+    </div>
+</div>

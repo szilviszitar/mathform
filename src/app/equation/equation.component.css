@@ -1,0 +1,47 @@
+form {
+  margin-top: 20%;
+  display: flex;
+  justify-content: center;
+  font-size: 96px;
+}
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 20%;
+  text-align: center;
+  font-size: 96px;
+}
+input:focus {
+  outline: none;
+}
+.stats {
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 24px;
+
+}
+.highlight{
+    background-color: rgb(201, 255, 201);
+}
+.close{
+    background-color: rgba(255,235,60,0.3);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 120px;
+    color: rgb(151, 136, 166);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(213, 201, 224);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
